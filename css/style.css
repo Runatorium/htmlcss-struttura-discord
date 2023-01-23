@@ -114,3 +114,31 @@ background-color: rgb(47, 0, 255);
     margin: 25px;
     background-color: green;
 }
+
+.flex-footerbot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 34, 34);
+}
+.flex-containerfooter{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 60%;
+    background-color: aquamarine;
+    margin: 15px;
+}
+.internaldiv1{
+    width: 40%;
+    height: 400px;
+    background-color: rgb(255, 133, 127);
+    border-style: dotted;
+}
+.internaldiv{
+    width: calc(60% / 4);
+    height: 400px;
+    background-color: rgb(127, 249, 255);
+    border-style: dotted;
+}
+
