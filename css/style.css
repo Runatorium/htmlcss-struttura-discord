@@ -5,18 +5,44 @@
 }
 
 
-.flex-Header-top {
+.flex-header-top {
  display: flex;
  height: 60px;
- background-color: aqua;
+ background-color: rgb(28, 231, 235);
  justify-content: center;
  align-items: center;
- 
 }
 
 .flex-menu{
     display: flex;
-    color: red;
+    color: rgb(0, 0, 0);
     width: 60%;
-    justify-content: center;
+    padding: 10px;
+    background-color: yellow;
+    justify-content: space-between;
+    border-style: dotted;
 }    
+
+.item-1{
+    width: 20%;
+    border-style: dotted;
+}
+.item-2{
+    width: 20%;
+    border-style: dotted
+}
+.flex-header-bot{
+    display: flex;
+    height: 400px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-header-container{
+    display: flex;
+    height: 300px;
+    width: 40%;
+    background-color: pink;
+
+}
