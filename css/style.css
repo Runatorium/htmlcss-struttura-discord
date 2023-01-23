@@ -25,11 +25,11 @@
 
 .item-1{
     width: 20%;
-    border-style: dotted;
+    
 }
 .item-2{
     width: 20%;
-    border-style: dotted
+   
 }
 .flex-header-bot{
     display: flex;
@@ -44,5 +44,55 @@
     height: 300px;
     width: 40%;
     background-color: pink;
+    border-style: dotted;
 
+}
+
+
+.flex-main-div1{
+    display: flex;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container1{
+    display: flex;
+    height: 300px;
+    border-style: dotted;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.flex-container2{
+    display: flex;
+    height: 300px;
+    border-style: dotted;
+    width: 60%;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.bluediv{
+        background-color: blue;
+        width: 60%;
+        height: 100%;
+}
+
+.pinkdiv{
+    background-color: rgb(253, 46, 247);
+        width: 40%;
+        height: 100%;
+}
+
+.bluedivspc{
+    background-color: blue;
+    width: 40%;
+    height: 100%;
+}
+
+.pinkdivspc{
+background-color: rgb(253, 46, 247);
+    width: 60%;
+    height: 100%;
 }
