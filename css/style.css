@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.flex-Header-top {
+ display: flex;
+ height: 60px;
+ background-color: aqua;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.flex-menu{
+    display: flex;
+    color: red;
+    width: 60%;
+    justify-content: center;
+}    
